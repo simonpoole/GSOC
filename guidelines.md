@@ -10,7 +10,7 @@ The expectation is for non-UI code that the coverage is near 100% and for UI cod
 
 Please use gradle for building your project and git for source control.
 
-GSOC projects code should be preferably be hosted on github.
+GSOC projects code should preferably be hosted on github.
 
 If you are coding against a code base that is being actively developed in parallel, please rebase regularly on the "main" development branch and expect to be asked to do that again immediately before your code is merged. If on the other hand your project is stand alone please setup a CI system that at least builds your project and runs your tests.
 
