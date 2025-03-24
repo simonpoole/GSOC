@@ -6,13 +6,17 @@ Please develop tests in parallel with your implementation code and not as an aft
 
 The expectation is for non-UI code that the coverage is near 100% and for UI code at least all "happy" paths have been exercised.
 
+Run a static code analyser/checker on yout
+
 ## Building and source control
 
 Please use gradle for building your project and git for source control.
 
 GSOC projects code should preferably be hosted on github.
 
-If you are coding against a code base that is being actively developed in parallel, please rebase regularly on the "main" development branch and expect to be asked to do that again immediately before your code is merged. If on the other hand your project is stand alone please setup a CI system that at least builds your project and runs your tests.
+If you are coding against a code base that is being actively developed in parallel, please rebase regularly on the "main" (historically "master") development branch and expect to be asked to do that again immediately before your code is merged. Never ever, really: __NEVER EVER__, merge with the main branch, always rebase on it. The maintainer of the project will merge your branch/PR when it is ready.
+
+If on the other hand your project is stand alone please setup a CI system that at least builds your project and runs your tests.
 
 ## Coding style
 
