@@ -6,7 +6,7 @@ Please develop tests in parallel with your implementation code and not as an aft
 
 The expectation is for non-UI code that the coverage is near 100% and for UI code at least all "happy" paths have been exercised.
 
-Run a static code analyser/checker on yout
+Run a static code analyser/checker on your code (for example sonarqube), the maintainer is going to do that any case and you will avoid a lot of embarrassing back and forth due to trivial issues.
 
 ## Building and source control
 
